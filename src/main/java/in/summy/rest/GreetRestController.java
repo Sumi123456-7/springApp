@@ -16,10 +16,5 @@ public class GreetRestController {
 		return "all the best";
 	}
 	
-	@GetMapping("/contact")
-	public String contact() {
-		return "+91-8406968023";
-	}
-
-
+	
 }
